@@ -27,9 +27,15 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/style.bundle.css",
+              "src/assets/plugins/global/plugins.bundle.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/widgets.bundle.js",
+              "src/assets/plugins/global/plugins.bundle.js",
+              "src/assets/js/scripts.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
